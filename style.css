@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+.image {
+  background-color: antiquewhite;
+}
+.image .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  gap: 30px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.a img {
+  width: 50px;
+}
+.b img {
+  width: 100px;
+}
+.c img {
+  width: 60px;
+}
+/* div.image over */
+
+/* header start */
+.header .h{
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+    padding: 10px;
+
+}    
+.left img{
+    width: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+    
+    
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    font-size: 25px;
+    color: gray;
+  
+}
+.text p:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.right img{
+    width: 40px;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-left: 300px;
+
+
+}
+.input input{
+    width: 350px;
+    height: 40px;
+}
+.sign{
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.banner{
+  background-image: url(banner.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+}
+.textt{
+  color: white;
+  padding: 30px;
+}
+.textt h1{
+  font-size: 80px;
+  font-weight: 500px;
+}
+.textt h3{
+  font-size: 30px;
+  
+}
+.products {
+  margin-top: 100px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+.animation{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.animation {
+  position: relative;
+  animation-name: move;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  
+}
+
+@keyframes move {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 100px;
+  }
+}
+@keyframes move {
+  from {
+    left: 100px;
+  }
+  to {
+    left: 0px;
+  }
+}
+.item img{
+  width: 300px;
+  height: auto;
+
+/* .flex-container{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  cursor: pointer;
+
+  
+  
+
+}
+.item{
+  border: 1px solid black;
+  
+
+}
+.item img{
+  width: 350px;
+  height: auto;
+  transition:ease-out;
+  transition-duration: 0.5s;
+  
+
+}
+.item:hover img{ 
+  transform: scale(1.2);
+  
+  /* transform: scale(1.1); this is for hovering image zoom in out while cursor at image */
+
+}
+.item .tex{
+  font-size: 20px;
+  background-color: #212237 ;
+  color: white;
+  margin-top: -10px;
+  text-align: center;
+  padding: 10px;
+} */
+.shop{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #212237 ;
+  color: white;
+  margin-bottom: 4px;
+}
+.shop h1{
+  border-top: 20px;
+  display: flex;
+  margin-left: 25px;
+}
+.shop .btn button{
+  width:100px;
+  height: 40px;
+  margin-top: 5px;
+  margin-right: 100px;
+  
+
+}
+.footer{
+  background-color: #212237;
+  color: white;
+
+  
+}
+.footer .india{
+  display: flex;
+  margin-left: 30px;
+
+}
+.ind img{
+  width: 20px;
+  margin-left: 10px;
+  
+}
+.list{
+  display: flex;
+  flex-direction: left;
+  gap: 10px;
+  margin-left: 30px;
+  gap: 100px;
+
+}
+
+.a{
+  margin-left: 30px;
+  margin-top: 30px;
+  
+
+}
+
+
+
+
+
+
